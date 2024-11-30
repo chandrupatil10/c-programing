@@ -1,0 +1,26 @@
+#include<stdio.h>
+#define M 5
+#define N 4
+
+void print(int arr[M][N]){
+int i,j;
+for(i=0;i<M;i++){
+for(j=0;j<N;j++)
+printf("%d",arr[i][j]);
+printf("\n");
+}
+       }
+int main(){
+int arr[5][4]={
+{1, 2, 3, 6},
+{4, 5, 6, 7},
+{7, 8, 9, 8},
+{3, 6, 0, 9},
+{1, 4, 9, 7),
+};
+clrscr();
+print(arr);
+return 0;
+}
+
+
